@@ -2,3 +2,18 @@
     font-family: 'Didot'; /*a name to be used later*/
     src: url('https://cdn.shoplightspeed.com/shops/611071/files/64807928/didot-italic-02.ttf'); /*URL to font*/
 }
+
+@font-face {
+  font-family: 'Didiot';
+}
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 10%);
+  line-height: 1.5;
+  font-family: "Didot", Calibri, Tahoma, sans-serif;
+}
+@font-face {
+  font-family: 'CustomFont'; /* Name your font family */
+  src: url('https://cdn.shoplightspeed.com/shops/611071/files/64807928/didot-italic-02.ttf'); /* Locate the .ttf file within your directory*/
+}
